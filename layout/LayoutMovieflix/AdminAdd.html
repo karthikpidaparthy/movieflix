@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <title>Movieflix</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all" />    
+
+</head>
+<body>
+       
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Movieflix</a>
+    </div>
+
+  
+        
+      <ul class="nav navbar-nav navbar-right">
+         <li class="dropdown">
+          <a href="#" class="dropbtn" data-toggle="dropdown" role="button" aria-expanded="false">Profile <span class="caret"></span></a>
+          <ul class="dropdown-content" role="menu">
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Sign Out</a></li>           
+          </ul>
+        </li>
+      </ul>
+    </div>
+  
+</nav>
+ 
+<div class="bs-example container">
+ 
+    <form class="form-horizontal myform" action="" method="post">
+        <div class="form-group">
+            <label class="control-label col-xs-3" for="title">Title:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="title" placeholder="Title">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="year">Year:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="year" placeholder="Year">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="rated">Rated:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="rated" placeholder="Rated">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="released">Released:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="released" placeholder="Released">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="runtime">Runtime:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="runtime" placeholder="Runtime">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="genre">Genre:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="genre" placeholder="Genre">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="director">Director:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="director" placeholder="Director">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="writer">Writer:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="writer" placeholder="Writer">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="actors">Actors:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="actors" placeholder="Actors">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="plot">Plot:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="plot" placeholder="Plot">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="firstName">First Name:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="firstName" placeholder="First Name">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="language">Language:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="language" placeholder="Language">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="country">Country:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="country" placeholder="Country">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="awards">Awards:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="awards" placeholder="Awards">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="poster">Poster:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="poster" placeholder="Poster">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="metascore">Metascore:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="Metascore" placeholder="First Name">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="imdbRating">IMDB Rating:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="imdbRating" placeholder="IMDB Rating">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="imdbVotes">IMDB Votes:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="imdbVotes" placeholder="IMDB Votes">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="imdbid">IMDB Id:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="imdbid" placeholder="IMDB Id">
+            </div>
+        </div>
+          <div class="form-group">
+            <label class="control-label col-xs-3" for="type">Type:</label>
+            <div class="col-xs-9">
+                <input type="text" class="form-control" id="type" placeholder="Type">
+            </div>
+        </div>
+       <div class="form-group">
+        <button type="button"  class="col-xs-9 btn btn-success btn-lg">Add</button>
+       </div>
+  </form>
+ 
+  </div>
+</body>
+</html>
